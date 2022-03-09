@@ -1,0 +1,10 @@
+button{
+    margin: 4px;
+    background-color: rgb(97, 97, 207);
+    border-radius: 10px;
+    color: aliceblue;
+    /* border: none; */
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}

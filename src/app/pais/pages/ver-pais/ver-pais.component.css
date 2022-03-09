@@ -1,0 +1,18 @@
+.card{
+    width: 50%;
+    height: 60vh;
+    background-color: rgb(223, 213, 213);
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 5px;
+}
+.card-img{
+    width: 100%;
+}
+li{
+    list-style: none;
+
+}
+h2{
+    padding: 10px 0px 10px 30px;
+}

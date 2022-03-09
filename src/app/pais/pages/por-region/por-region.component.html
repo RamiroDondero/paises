@@ -1,0 +1,23 @@
+<div class="animate__animated animate__fadeIn ">
+
+        <h2>Por Región</h2>
+    <hr>
+
+    <button class='btn btn-primary' *ngFor="let region of regiones" (click)="buscar(region)">
+        {{region}}
+    </button>
+    
+    <hr>
+
+    <div class="alert alert-danger" *ngIf="hayError">
+        No se encontro nada con el termino {{termino}}
+    </div>
+
+    <div class="row animate__animated animate__fadeIn" *ngIf="paises.length > 0">
+        <div class="col">
+            <app-pais-tabla [paises]="paises"> </app-pais-tabla>
+        </div> 
+    </div>
+
+
+</div>

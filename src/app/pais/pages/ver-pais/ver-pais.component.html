@@ -1,0 +1,24 @@
+<div class="animate__animated animate__fadeIn">
+
+  <div class="alert alert-info" *ngIf="!pais; else existe">
+    Espere por Favor ...
+  </div>
+
+<ng-template #existe>
+
+  <div class="card">
+    <picture><img class="card-img" [src]="pais.flags.svg" alt=""></picture>
+    <div class="card-text">
+      <h2>{{pais.name.common}}</h2>
+      <ul>
+        <li>Población: {{pais.population | number}}</li>
+        <li>Región: {{pais.region}}</li>
+        <li>Capital: {{pais.capital[0]}}</li>
+      </ul>
+    </div>
+  </div>
+
+</ng-template>
+
+
+</div>

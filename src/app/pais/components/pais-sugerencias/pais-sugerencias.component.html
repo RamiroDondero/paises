@@ -1,0 +1,8 @@
+
+<ul class="list-group" *ngIf="termino!='' && mostrarSugerencias==true">
+    <li class="list-group-item list-group-item-action"
+        *ngFor="let sugerido of sugeridos" 
+        (click)="buscar(sugerido)">
+        {{sugerido.name.common}} : {{sugerido.capital}}
+    </li>
+</ul> 
