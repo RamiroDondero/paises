@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.0.
 
-## Pusimos en Practica
+## Pusimos en Práctica
 
 1.-Uso de componentes reutilizables
 2.-EventEmitter.-
